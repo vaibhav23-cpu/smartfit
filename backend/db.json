@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "email": "testuser@example.com",
+      "password": "$2b$10$3VCD9MjsgHNwGd6YeS.tCODZGX6BkryM0jSWKjqKtvP9er6ETS2Ty"
+    },
+    {
+      "email": "hs404021.vs45@gmail.com",
+      "password": "$2b$10$dTBiT2N0HHMwqT59kj5.SuI1qJvX6cwzaRbywlowXK76wSdnPurry"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Men's Designer Silk Kurta",
+      "price": 2499,
+      "description": "Elegantly crafted traditional men's silk kurta with gold embroidery details, perfect for festivals and special occasions.",
+      "category": "Ethnic",
+      "imageUrl": "/assets/silk_kurta.png"
+    },
+    {
+      "id": 2,
+      "name": "Men's Streetwear Hoodie",
+      "price": 1999,
+      "description": "Premium cotton-blend streetwear hoodie with soft fleece lining and a minimalist style.",
+      "category": "Casual",
+      "imageUrl": "/assets/hoodie.png"
+    },
+    {
+      "id": 3,
+      "name": "Men's Cotton Kurta",
+      "price": 1899,
+      "description": "Handwoven pure cotton men's kurta featuring comfortable fit and elegant striped patterns.",
+      "category": "Ethnic",
+      "imageUrl": "/assets/silk_kurta.png"
+    },
+    {
+      "id": 4,
+      "name": "Men's Premium Linen Shirt",
+      "price": 1499,
+      "description": "Lightweight, breathable pure linen shirt, styled with a modern mandarin collar.",
+      "category": "Casual",
+      "imageUrl": "/assets/linen_shirt.png"
+    },
+    {
+      "id": 5,
+      "name": "Men's Classic Denim Jacket",
+      "price": 2999,
+      "description": "Classic indigo denim jacket with metal button accents and adjustable fit.",
+      "category": "Casual",
+      "imageUrl": "/assets/denim_jacket.png"
+    },
+    {
+      "id": 6,
+      "name": "Men's Crewneck Sweater",
+      "price": 1799,
+      "description": "Flowy and warm crewneck knit sweater with soft combed cotton textures.",
+      "category": "Casual",
+      "imageUrl": "/assets/hoodie.png"
+    },
+    {
+      "id": 7,
+      "name": "Men's Velvet Bandhgala Suit",
+      "price": 6999,
+      "description": "A royal velvet bandhgala suit jacket designed for grand celebrations and formal events.",
+      "category": "Formal",
+      "imageUrl": "/assets/bandhgala.png"
+    },
+    {
+      "id": 8,
+      "name": "Men's Smart Khadi Blazer",
+      "price": 3999,
+      "description": "Hand-spun khadi cotton blazer, structured yet lightweight for a perfect smart-casual or formal look.",
+      "category": "Formal",
+      "imageUrl": "/assets/bandhgala.png"
+    },
+    {
+      "id": 9,
+      "name": "Men's Combed Cotton Polo",
+      "price": 899,
+      "description": "Premium combed cotton pique polo shirt with ribbed collar and cuffs, ideal for everyday casual wear.",
+      "category": "Casual",
+      "imageUrl": "/assets/polo_tee.png"
+    },
+    {
+      "id": 10,
+      "name": "Men's Active Joggers",
+      "price": 1299,
+      "description": "Stretch-fit breathable joggers with moisture-wicking technology for active days or home lounging.",
+      "category": "Activewear",
+      "imageUrl": "/assets/joggers.png"
+    },
+    {
+      "id": 11,
+      "name": "Men's Windbreaker Jacket",
+      "price": 2299,
+      "description": "Water-resistant lightweight windbreaker jacket with secure zip pockets and adjustable hood.",
+      "category": "Activewear",
+      "imageUrl": "/assets/hoodie.png"
+    },
+    {
+      "id": 12,
+      "name": "Men's Traditional Sherwani",
+      "price": 5499,
+      "description": "Flared traditional sherwani in georgette fabric with intricate zari embroidery, designed for weddings.",
+      "category": "Ethnic",
+      "imageUrl": "/assets/silk_kurta.png"
+    },
+    {
+      "id": 13,
+      "name": "Men's Utility Cargo Pants",
+      "price": 1899,
+      "description": "Durable cotton twill cargo pants featuring multiple utility pockets and adjustable ankle cuffs.",
+      "category": "Casual",
+      "imageUrl": "/assets/joggers.png"
+    },
+    {
+      "id": 14,
+      "name": "Men's Oxford Knitted Vest",
+      "price": 1199,
+      "description": "Traditional sleeveless knitted vest featuring detailed v-neck and diamond weave styling.",
+      "category": "Formal",
+      "imageUrl": "/assets/linen_shirt.png"
+    },
+    {
+      "id": 15,
+      "name": "Men's Woolen Winter Shawl",
+      "price": 2499,
+      "description": "Warm, hand-loomed wool shawl with elegant paisley borders and a soft feel for cold weather.",
+      "category": "Accessories",
+      "imageUrl": "/assets/shawl.png"
+    }
+  ],
+  "carts": {
+    "testuser@example.com": [
+      1,
+      2,
+      13
+    ],
+    "hs404021.vs45@gmail.com": []
+  },
+  "orders": [
+    {
+      "id": 1782314479129,
+      "email": "hs404021.vs45@gmail.com",
+      "items": [
+        {
+          "id": 2,
+          "name": "Streetwear Hoodie",
+          "price": 1999,
+          "description": "Premium cotton-blend streetwear hoodie with soft fleece lining and a minimalist style.",
+          "category": "Casual"
+        }
+      ],
+      "totalAmount": 1999,
+      "date": "2026-06-24T15:21:19.130Z",
+      "status": "Placed"
+    }
+  ]
+}
